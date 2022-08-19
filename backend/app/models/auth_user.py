@@ -3,7 +3,7 @@ from sqlalchemy.orm import relationship
 
 from app.db.session import Base
 
-# tạo 1 alchemy để kết nối với dbbase
+
 class AuthUser(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True, autoincrement=True)
