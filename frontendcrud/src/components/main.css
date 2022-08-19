@@ -1,0 +1,36 @@
+.mg-4 {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.gray-9 {
+    background-color: #bfbfbf;
+}
+
+.form__create {
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: 40px;
+}
+
+
+.bold_text {
+    font-weight: 700;
+  }
+
+.margin_left {
+    margin-left: 20px;   
+}
+
+.postMethod {
+    margin: 20px 20px;
+}
+
+.margin_left_30 {
+    margin-left: 50%;
+}
+
+.center_form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

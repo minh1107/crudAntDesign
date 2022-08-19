@@ -1,0 +1,13 @@
+API_PATH=/api/v1
+BACKEND_CORS_ORIGINS='["http://localhost", "http://localhost:4200", "http://localhost:3000"]'
+PROJECT_NAME='BeeCost Market API Platform'
+POSTGRES_HOST=sv5.beecost.net
+POSTGRES_PORT=33456
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=123456
+POSTGRES_DB= 
+REDIS_HOST=sv5.beecost.net
+REDIS_PORT=6379
+REDIS_PASSWORD= 
+REDIS_LIMIT_INDEX=0
+OAUTH_SECRET_KEY=

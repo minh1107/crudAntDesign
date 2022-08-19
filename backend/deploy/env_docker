@@ -1,0 +1,14 @@
+STACK_NAME=bee-market-api
+
+REDIS_DATA_PATH=/ssd/linh_dev/market-backend/data/redis
+REDIS_PORT=6379
+
+POSTGRES_PORT=33456
+POSTGRES_DATA_PATH=/ssd/linh_dev/market-backend/data/postgres
+POSTGRES_CONFIG_PATH=/home/linh/beecost-market-api-platform/deploy/postgres/postgresql.conf
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=BEeePostGreS#21
+POSTGRES_DB=bee_market
+
+BACKEND_PORT=8888
+BACKEND_MAX_WORKER=4

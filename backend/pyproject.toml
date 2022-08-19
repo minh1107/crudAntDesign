@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bee-market-api-platform"
+version = "0.1.0"
+description = ""
+authors = ["BeeCost <admin@beecost.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.74.1"
+uvicorn = { extras = ["standard"], version = "^0.17.5" }
+orjson = "^3.6.7"
+SQLAlchemy = "^1.4.31"
+aredis = "^1.1.8"
+python-jose = {version = "^3.3.0", extras = ["cryptography"]}
+passlib = {version = "^1.7.4", extras = ["bcrypt"]}
+psycopg2 = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+requests = "^2.27.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

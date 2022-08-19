@@ -1,0 +1,8 @@
+**/.git
+**/deploy/backend
+**/deploy/postgres
+**/deploy/redis
+**/venv
+README.md
+*.env_docker
+*.env

@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  backend:
+    image: beemarket-api-platform-backend:latest
+    env_file:
+      - ../../.env
+    environment:
+      - TZ="Asia/Ho_Chi_Minh"
+      - MODULE_NAME=app.main
+      - VARIABLE_NAME=app
+      - GRACEFUL_TIMEOUT=240
+      - TIMEOUT=240
+      - MAX_WORKERS=${BACKEND_MAX_WORKER}
+    ports:
+      - ${BACKEND_PORT}:80
