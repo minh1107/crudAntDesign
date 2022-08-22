@@ -1,9 +1,6 @@
-from sqlalchemy import Column, Integer, String, Boolean, DateTime
-from sqlalchemy.orm import relationship
-
+from sqlalchemy import Column, Integer, String
 from app.db.session import Base
 
-# tạo 1 alchemy để kết nối với dbbase
 class AuthUser(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True, autoincrement=True)

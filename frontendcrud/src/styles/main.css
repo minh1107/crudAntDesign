@@ -26,11 +26,15 @@
 }
 
 .margin_left_30 {
-    margin-left: 50%;
+    margin-left: 40%;
 }
 
 .center_form {
-    display: flex;
-    justify-content: center;
     text-align: center;
+    margin-left: 15%;
 }
+
+.button__create {
+    padding: 30px;
+    text-align: center;
+  }

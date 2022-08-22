@@ -2,8 +2,6 @@ import { Table, Descriptions  } from 'antd'
 import React from 'react'
 
 const Info = ({users}) => {
-    const address = users.address
-    console.log(address);
   return (
     <div>
         <Descriptions title="">

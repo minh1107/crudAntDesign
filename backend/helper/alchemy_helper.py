@@ -1,5 +1,4 @@
 import datetime
-import numpy
 
 from sqlalchemy import inspect
 from sqlalchemy.dialects import postgresql
